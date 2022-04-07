@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FormProvider, useForm, useFormContext } from "react-hook-form";
-import { Button } from "../ui/Button/Button";
-import styles from "./CreateApplicationForm.module.css";
+import { Button } from "../../ui/Button/Button";
+import styles from "../../css/CreateApplicationForm.module.css";
 
 const ERROR_REQUIRED = "Required";
 const ERROR_MIN_AMOUNT = "Min. Amount >= 1000";
