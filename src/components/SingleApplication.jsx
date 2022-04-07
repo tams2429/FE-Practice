@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../css/SingleApplication.module.css";
+import moment from "moment";
 
 const SingleApplication = ({ application }) => {
   return (
@@ -18,15 +19,15 @@ const SingleApplication = ({ application }) => {
       </div>
       <div className={styles.cell}>
         <sub>Loan Amount</sub>
-        {application.loan_amount}
+        £{application.loan_amount}
       </div>
       <div className={styles.cell}>
         <sub>Application Date</sub>
-        {application.date_created}
+        {moment(application.date_created).format('Do MMMM YYYY')}
       </div>
       <div className={styles.cell}>
         <sub>Expiry date</sub>
-        {application.expiry_date}
+        {moment(application.expiry_date).format('Do MMMM YYYY')}
       </div>
     </div>
   );
