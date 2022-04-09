@@ -41,7 +41,7 @@ const Applications = () => {
   //When pagination goes to 20 return to 1 or disable button
   //Add a test with dummy data when data goes out of bounds, pagination resets to 1
   const handleClick = () => {
-    if ((currentPagination + 1) === (totalData.length) / limitPerPage) {
+    if ((currentPagination + 1) >= (totalData.length) / limitPerPage) {
       setLoadMore(false)
     }
     return setCurrentPagination(currentPagination + 1)

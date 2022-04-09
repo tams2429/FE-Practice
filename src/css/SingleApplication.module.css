@@ -25,3 +25,13 @@
   color: #999;
   margin-bottom: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .SingleApplication {
+    grid-template-columns: none;
+  }
+  .cell {
+    padding: 0;
+    border-right: 0;
+  }
+}
