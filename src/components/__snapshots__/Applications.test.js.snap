@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Application Component should match snapshot 1`] = `
+<div>
+  <div
+    class="Applications"
+  >
+    <div
+      class="SingleApplication"
+    >
+      <div
+        class="cell"
+      >
+        <sub>
+          Company
+        </sub>
+        Qnekt
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Name
+        </sub>
+        Miles
+         
+        Espinoza
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Email
+        </sub>
+        milesespinoza@qnekt.com
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Loan Amount
+        </sub>
+        £
+        37597
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Application Date
+        </sub>
+        10th August 2021
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Expiry date
+        </sub>
+        2nd December 2021
+      </div>
+    </div>
+    <div
+      class="SingleApplication"
+    >
+      <div
+        class="cell"
+      >
+        <sub>
+          Company
+        </sub>
+        Qnekt
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Name
+        </sub>
+        Miles
+         
+        Espinoza
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Email
+        </sub>
+        milesespinoza@qnekt.com
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Loan Amount
+        </sub>
+        £
+        37597
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Application Date
+        </sub>
+        10th August 2021
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Expiry date
+        </sub>
+        2nd December 2021
+      </div>
+    </div>
+    <div
+      class="SingleApplication"
+    >
+      <div
+        class="cell"
+      >
+        <sub>
+          Company
+        </sub>
+        Qnekt
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Name
+        </sub>
+        Miles
+         
+        Espinoza
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Email
+        </sub>
+        milesespinoza@qnekt.com
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Loan Amount
+        </sub>
+        £
+        37597
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Application Date
+        </sub>
+        10th August 2021
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Expiry date
+        </sub>
+        2nd December 2021
+      </div>
+    </div>
+    <div
+      class="SingleApplication"
+    >
+      <div
+        class="cell"
+      >
+        <sub>
+          Company
+        </sub>
+        Qnekt
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Name
+        </sub>
+        Miles
+         
+        Espinoza
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Email
+        </sub>
+        milesespinoza@qnekt.com
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Loan Amount
+        </sub>
+        £
+        37597
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Application Date
+        </sub>
+        10th August 2021
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Expiry date
+        </sub>
+        2nd December 2021
+      </div>
+    </div>
+    <div
+      class="SingleApplication"
+    >
+      <div
+        class="cell"
+      >
+        <sub>
+          Company
+        </sub>
+        Qnekt
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Name
+        </sub>
+        Miles
+         
+        Espinoza
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Email
+        </sub>
+        milesespinoza@qnekt.com
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Loan Amount
+        </sub>
+        £
+        37597
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Application Date
+        </sub>
+        10th August 2021
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Expiry date
+        </sub>
+        2nd December 2021
+      </div>
+    </div>
+    <div
+      class="SingleApplication"
+    >
+      <div
+        class="cell"
+      >
+        <sub>
+          Company
+        </sub>
+        Qnekt
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Name
+        </sub>
+        John
+         
+        Smith
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Email
+        </sub>
+        johnsmith@qnekt.com
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Loan Amount
+        </sub>
+        £
+        123
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Application Date
+        </sub>
+        10th August 2021
+      </div>
+      <div
+        class="cell"
+      >
+        <sub>
+          Expiry date
+        </sub>
+        2nd December 2021
+      </div>
+    </div>
+    <button
+      class="button"
+    >
+      Load more
+    </button>
+  </div>
+</div>
+`;

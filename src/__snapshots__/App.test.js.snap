@@ -62,60 +62,11 @@ Object {
         <div
           class="Applications"
         >
-          <div
-            class="SingleApplication"
+          <button
+            class="button"
           >
-            <div
-              class="cell"
-            >
-              <sub>
-                Company
-              </sub>
-              Qnekt
-            </div>
-            <div
-              class="cell"
-            >
-              <sub>
-                Name
-              </sub>
-              Miles
-               
-              Espinoza
-            </div>
-            <div
-              class="cell"
-            >
-              <sub>
-                Email
-              </sub>
-              milesespinoza@qnekt.com
-            </div>
-            <div
-              class="cell"
-            >
-              <sub>
-                Loan Amount
-              </sub>
-              37597
-            </div>
-            <div
-              class="cell"
-            >
-              <sub>
-                Application Date
-              </sub>
-              2021-08-10
-            </div>
-            <div
-              class="cell"
-            >
-              <sub>
-                Expiry date
-              </sub>
-              2021-12-02
-            </div>
-          </div>
+            Load more
+          </button>
         </div>
       </div>
     </div>
@@ -178,60 +129,11 @@ Object {
       <div
         class="Applications"
       >
-        <div
-          class="SingleApplication"
+        <button
+          class="button"
         >
-          <div
-            class="cell"
-          >
-            <sub>
-              Company
-            </sub>
-            Qnekt
-          </div>
-          <div
-            class="cell"
-          >
-            <sub>
-              Name
-            </sub>
-            Miles
-             
-            Espinoza
-          </div>
-          <div
-            class="cell"
-          >
-            <sub>
-              Email
-            </sub>
-            milesespinoza@qnekt.com
-          </div>
-          <div
-            class="cell"
-          >
-            <sub>
-              Loan Amount
-            </sub>
-            37597
-          </div>
-          <div
-            class="cell"
-          >
-            <sub>
-              Application Date
-            </sub>
-            2021-08-10
-          </div>
-          <div
-            class="cell"
-          >
-            <sub>
-              Expiry date
-            </sub>
-            2021-12-02
-          </div>
-        </div>
+          Load more
+        </button>
       </div>
     </div>
   </div>,

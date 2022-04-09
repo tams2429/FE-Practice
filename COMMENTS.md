@@ -8,4 +8,4 @@
 - Originally decided to loop back to the first page of data when the user gets to the last page, however, I realised that this may be misleading to the user who may mistakenly believe that after the last page of data, the first page of data is new data
 - To solve this, I could either add some pagination UI to show which page the user is on or I could disable the button once the user reaches the last page, the latter of which is ultimately the solution I went for as I believe that this is clearer to the user
 
-5.
+5. Added basic test and drafted out some ideas of other tests to run given more time
