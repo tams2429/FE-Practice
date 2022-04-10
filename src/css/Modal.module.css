@@ -1,0 +1,78 @@
+.ModalContent h2,
+.ModalContent h3 {
+  margin: 0;
+  margin-bottom: 0.9rem;
+}
+
+.ModalHeading {
+  display: flex;
+}
+
+.ModalUserProfile {
+  display: flex;
+  flex: 0.8;
+  border-right: 1px solid #eee;
+}
+
+.ModalUserBio {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.ModalUserOtherInfo {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.ModalUserOtherInfoSub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ModalUserOtherInfo sub {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.ModalUserImage img {
+  border-radius: 50%;
+}
+
+.ModalCloseIcon {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.ModalCloseIcon:hover,
+.ModalCloseIcon:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ModalUserLoan {
+  margin-top: 50px;
+}
+
+.ModalUserLoanHistoryHeaders {
+  display: flex;
+}
+
+.ModalUserLoanHistoryHeaders h4 {
+  flex: 1;
+}
+
+.ModalUserLoanHistoryDataContainer {
+  box-shadow: inset 0px 11px 8px -10px #ccc, inset 0px -11px 8px -10px #ccc;
+}
+
+.ModalUserLoanHistoryData {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.ModalUserLoanHistoryData h4 {
+  flex: 1;
+}

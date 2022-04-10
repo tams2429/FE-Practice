@@ -2,9 +2,9 @@ import React from "react";
 import styles from "../css/SingleApplication.module.css";
 import moment from "moment";
 
-const SingleApplication = ({ application }) => {
+const SingleApplication = ({ application, onClick }) => {
   return (
-    <div className={styles.SingleApplication}>
+    <div className={styles.SingleApplication} onClick={onClick}>
       <div className={styles.cell}>
         <sub>Company</sub>
         {application.company}
