@@ -18,6 +18,7 @@ const Applications = () => {
   const [currentPagination, setCurrentPagination] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentModalData, setCurrentModalData] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const getApplicationTotalData = async () => {
@@ -34,12 +35,15 @@ const Applications = () => {
   useEffect(() => {
     const getApplicationData = async (currentPagination, limitPerPage) => {
       try {
-        const { data } = await axios.get(
+        setIsLoading(true);
+        const { data: responseData } = await axios.get(
           `http://localhost:3001/api/applications?_page=${currentPagination}&_limit=${limitPerPage}`
         );
-        return setData(data);
+        setData([...data, ...responseData]);
+        setIsLoading(false);
       } catch (error) {
         console.log(error);
+        setIsLoading(false);
       }
     }
     getApplicationData(currentPagination, limitPerPage);
@@ -48,7 +52,7 @@ const Applications = () => {
   const handleBtnClick = () => {
     if ((currentPagination + 1) >= (totalData.length) / limitPerPage) {
       setLoadMore(false);
-    }
+    } 
     return setCurrentPagination(currentPagination + 1);
   };
 
@@ -66,13 +70,15 @@ const Applications = () => {
     setIsModalOpen(false);
   };
 
+  console.log('data is:', data)
+
   return (
     <div className={styles.Applications}>
       {data && data.map((user, index) => {
         return <SingleApplication key={index} application={user} onClick={() => handleModalOpen(user.id)} />
       })}
       <Modal isModalOpen={isModalOpen} handleModalClose={handleModalClose} currentModalData={currentModalData}/>
-      <Button onClick={handleBtnClick} disabled={!loadMore}>Load more</ Button>
+      <Button onClick={handleBtnClick} disabled={!loadMore || isLoading}>{isLoading ? 'Loading...' : 'Load more'}</ Button>
     </div>
   );
 };
